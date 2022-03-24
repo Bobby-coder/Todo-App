@@ -1,0 +1,110 @@
+.todo{
+    max-width: 500px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ff6666;
+    color: #fff;
+    box-shadow: -20px -20px 0px 0px  rgba(100, 100, 100, 0.1);
+    border: 1px solid #ff6666;
+}
+
+.todoHeader{
+    padding: 5px 0;
+    margin: 20px;
+    border-bottom: 1px solid #fff;
+}
+
+.todoItem{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-bottom: 5px;
+    overflow: auto;
+}
+
+.todoInput{
+    padding: 20px;
+    margin: 10px 0;
+}
+
+input{
+    border: 1px solid #fff;
+}
+
+input[placeholder]{
+    padding: 10px;
+}
+
+.todoInput p{
+    margin-bottom: 5px;
+}
+
+.addTodo{
+    padding: 10px;
+    background-color: #ff6666;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.removeTodo{
+    border: none;
+}
+
+@media screen and (max-width: 343px){
+    
+    .todoHeader p{
+        font-size: x-small;
+    }
+
+    input[placeholder]{
+        padding: 5px;
+        font-size: small;
+    }
+
+    input{
+        width: 50%;
+    }
+
+    .addTodo{
+        padding: 5px;
+        font-size: small;
+    }
+}
+
+
+@media screen and (min-width: 343px) and (max-width: 400px){
+    
+    .todoHeader p{
+        font-size: x-small;
+    }
+
+    input[placeholder]{
+        padding: 5px;
+        font-size: small;
+    }
+
+    input{
+        width: 60%;
+    }
+
+    .addTodo{
+        padding: 5px;
+        font-size: small;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 418px){
+    
+    .todoHeader p{
+        font-size: small;
+    }
+
+    input[placeholder]{
+        padding: 5px;
+    }
+
+    .addTodo{
+        padding: 5px;
+    }
+}
