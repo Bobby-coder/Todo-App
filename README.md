@@ -10,8 +10,8 @@ This is a code repository for the Todo app.
 To run the application locally, clone the repo, install dependencies and run the app.
 
 ```
-$ git clone https://github.com/Bobby-coder/Counter-app.git
-$ cd Todo-app
+$ git clone https://github.com/Bobby-coder/Todo-App.git
+$ cd Todo-App
 $ npm start
 ```
 
